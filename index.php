@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php session_start();
+
+
+?><!DOCTYPE html>
 <!-- saved from url=(0031)https://natureheal.pw/testoviy/ -->
 <html lang="ru" data-lt-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
    <title>Тестовое задание </title>
@@ -11,21 +14,38 @@
    <!--<script async="" src="./history/tag.js.загрузка"></script><script type="text/javascript" src="./history/jquery.js.загрузка"></script>
    <script src="./history/shakesland.js.загрузка"></script>-->
    <!-- <script async="" src="./history/ads_check.js.загрузка"></script><script async="" src="https://index.php/?r=api/cookie&amp;jsoncallback=lShakes.setCookieDomain&amp;site=natureheal.pw/testoviy/&amp;tid="></script><script type="text/javascript" src="https://index.php/?r=api/js&amp;site=natureheal.pw/testoviy/&amp;tid="></script></body></html> -->
-
+<script>
+document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание готовности документа
+    
+    document.querySelector('.form-reg').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
+    
+});
+   document.getElementById('link').onclick = function () {
+      script();
+      };
+    function script() {
+      document.querySelector('.form-reg').scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
+};</script>
 <body>
    <div class="sazonov66_g9ysODlqt">
       <div class="katyakoncakova_FtFDdVex">
          <div class="alex_zevsa_wcih4ECQW clearfix">
-            <a class="Natali0610_RVdHBJiwC" href="https://natureheal.pw/testoviy/">
+            <a class="Natali0610_RVdHBJiwC" href="">
                <img alt="Logo" src="./history/img-logo.png">
                <h1>Здравоохранение </h1>
             </a>
             <div class="mikstroy_hlTMvYzPJs">
                <div class="mansurovan_vUZn4RQN">
-                  <span class="Dulov_V_V_du3BxPsUO">Русский</span> <span class="udav_t_slEtc0GR">/</span> <a href="https://natureheal.pw/testoviy/">English</a>
+                  <span class="Dulov_V_V_du3BxPsUO">Русский</span> <span class="udav_t_slEtc0GR">/</span> <a href="">English</a>
                </div>
                <div class="tata_soboleva_XjcqhmYZ7">
-                  <form action="https://natureheal.pw/testoviy/#" id="search" method="get" name="search">
+                  <form id="search" method="get" name="search">
                      <input type="hidden" value="28" name="old">
                      <input type="hidden" value="Mike" name="name">
                      <input class="tjn-02_ANHUDPcR" maxlength="80" name="q" placeholder="поиск" type="search">
@@ -39,23 +59,23 @@
                <ul class="main-menu-blk clearfix">
 
                   <li class="">
-                     Здоровье <i class="web-s submenu-btn"></i>
+                     <p>Здоровье</p> <i class="web-s submenu-btn"></i>
 
                   </li>
                   <li class="">
-                     Деятельность <i class="web-s submenu-btn"></i>
+                     <p>Деятельность</p> <i class="web-s submenu-btn"></i>
 
                   </li>
                   <li class="">
-                     Документы <i class="web-s submenu-btn"></i>
+                     <p>Документы</p> <i class="web-s submenu-btn"></i>
 
                   </li>
                   <li class="selected">
-                     Пресс-центр <i class="web-s submenu-btn"></i>
+                     <p>Пресс-центр</p> <i class="web-s submenu-btn"></i>
 
                   </li>
                   <li class="shev_V7Mo2liaeP">
-                     Конкурсы <i class="web-s submenu-btn"></i>
+                     <p>Конкурсы</p> <i class="web-s submenu-btn"></i>
 
                   </li>
                </ul>
@@ -68,7 +88,7 @@
                <div class="zhanna_86_o5IKudBv">
                   <div class="renul_seDwyoGn57">
                      <div class="alstep54_sglCGFT6q">
-                        <a href="https://example.com/">Главная</a><span class="altakansk_YrlOq5h6N">→</span><a href="https://example.com/">Пресс-центр</a><span class="altakansk_YrlOq5h6N">→</span><a href="https://example.com/">Новости</a> <span class="altakansk_YrlOq5h6N">→</span><a href="https://example.com/">Плохое зрение легко вылечить! </a>
+                        <a href="">Главная</a><span class="altakansk_YrlOq5h6N">→</span><a href="">Пресс-центр</a><span class="altakansk_YrlOq5h6N">→</span><a href="">Новости</a> <span class="altakansk_YrlOq5h6N">→</span><a href="">Плохое зрение легко вылечить! </a>
                      </div>
                      <h2><small>(сайт для тестового задания)</small> ТЕПЕРЬ ЗРЕНИЕ МОЖНО ПОЛНОСТЬЮ ВОССТАНОВИТЬ ЗА МЕСЯЦ БЕЗ ХИРУРГИЧЕСКОГО ВМЕШАТЕЛЬСТВА</h2>
                      <div class="dvksub_rYPIQ4ET">
@@ -76,7 +96,7 @@
                      </div>
                      <div class="Genrik91_k2XdOzZlq1">
                         <div class="gelat_Bb6MhOHv">
-                           <a href="https://natureheal.pw/testoviy/"><img src="./history/img-oko-plus.png" height="260px;"></a>
+                           <a href=""><img src="./history/img-oko-plus.png" height="260px;"></a>
                            <div class="ewa-b_p5sjGkxr1"></div>
                         </div>
                         <h3><font color="grey">ПЛОХОЕ ЗРЕНИЕ И КАК С ЭТИМ БОРОТЬСЯ</font></h3>
@@ -182,7 +202,7 @@
                         <br>
 
                         <br>
-                        <p><strong><i>Корреспондент</i>: "Где можно <a href="https://natureheal.pw/testoviy/">приобрести Crystal Eyes?</a>
+                        <p><strong><i>Корреспондент</i>: "Где можно <a href="">приобрести Crystal Eyes?</a>
                               Думаю, нашим читателям будет интересен этот вопрос."</strong></p>
                         <p><strong> Саута Л.А. </strong> На данный момент лекарство производится малыми партиями, хотя
                            производитель уже строит новые мощности, которые позволят увеличить объём в несколько раз.
@@ -191,7 +211,7 @@
                            до недавнего момента в розницу лекарство было приобрести и вовсе невозможно, весь свободный
                            объём уходил в специализированные медицинские центры и клиники.</p>
                         <p>Но в начале этого года производитель получил бюджетное финансирование для расширения
-                           производства. И по настоянию ВОЗ запустил <a href="https://natureheal.pw/testoviy/"><b>специальный
+                           производства. И по настоянию ВОЗ запустил <a href=""><b>специальный
                                  сайт производителя</b></a> для розничных продаж, где в режиме онлайн можно оформить
                            заявку на Crystal Eyes. Грубо говоря, достаточно оставить своё имя и телефон, после чего с вами
                            свяжутся и уточнят все данные, ответив, заодно, на интересующие вопросы. Доставка
@@ -208,7 +228,7 @@
                            <b>77% людей с плохим зрением, даже не догадываются, что могут потерять его вовсе</b>.
                            Согласитесь - обидно к 40 годам лишиться его полностью. Благодаря работе его создателей, у
                            вас теперь есть доступ к уникальному препарату, которого больше нет нигде в мире. Это
-                           единственное <a href="https://natureheal.pw/testoviy/">средство</a> для улучшения зрения, официально
+                           единственное <a href="">средство</a> для улучшения зрения, официально
                            рекомендованное ВОЗ. <b>Воспользуйтесь своим шансом вместо того,
                               чтобы в итоге ослепнуть совсем</b>.</p>
                         <div style="background-color: rgb(226, 226, 226); padding: 10px;line-height:200% ">
@@ -223,7 +243,7 @@
                            <div style="clear: both;"></div>
                         </div>
                         <p style="font-size: 25px; font-weight: 700;">Исследования</p>
-                        <p><b>Результаты лабораторных тестов <a href="https://natureheal.pw/testoviy/">"Crystal Eyes"</a> в
+                        <p><b>Результаты лабораторных тестов <a href="">"Crystal Eyes"</a> в
                               ВОЗ:</b></p>
                         <p>Было отобрано 100 добровольцев разного возраста страдающих тяжелой, легкой и средне-тяжелой
                            формами слепоты. В результате 30-дневного исследования были получены <b>следующие
@@ -249,18 +269,54 @@
                                  <br>
                                  3. "Crystal Eyes" признан ведущим препаратом в борьбе с плохим зрением. <br><br>
                               </strong></i></p>
-                        <p><i><strong>P.S.: Мы попросили Леонида Александровича сделать дополнительную скидку для наших
+                        <p id="form-reg"><i><strong>P.S.: Мы попросили Леонида Александровича сделать дополнительную скидку для наших
                                  читателей. Он пошёл нам навстречу, и сейчас каждый может приобрести Crystal Eyes с
-                                 дополнительной скидкой в 70%.</strong></i></p><i><strong>
-                              <center>
-                                 <a href="https://natureheal.pw/testoviy/"><img src="./history/img-oko-plus.png" width="300px"></a>
-                              </center>
-                              <div class="udalykhnn_av3FDRJhB"><br>
-                                 <a class="button_page" href="https://natureheal.pw/testoviy/">ПЕРЕЙТИ НА САЙТ
-                                    ПРОИЗВОДИТЕЛЯ</a>
+                                 дополнительной скидкой в 70%.</strong></i></p><i>
+                           <strong class="baner-reg">
+                           
+                           <div class="form-reg">
+                              <h1>Форма заказа</h1>
+                              
+                              <form action="https://natureheal.pw/zadanie/order.php" class="cf" method="get">
+                              <div class="half">
+                                 <input name="name" type="text" id="name" placeholder="Имя" required>
+                                 <input name="number" type="number" id="namber" placeholder="Номер телефона" required>
+                              </div> 
+                              <input type="submit" value="Отправить" id="input-submit">
+                              </form>
+                              
+                                 
                               </div>
+                           
+                              <div>
+                                 <a href=""><img src="./history/img-oko-plus.png" width="300px"></a>
+                              </div>
+                              
                               <div class="AGB_yQobO46Dw"></div>
                            </strong></i>
+                           <style> .baner-reg{
+                              display: flex;
+                              flex-direction: row;
+                              flex-wrap: wrap;
+                              justify-content: center;
+                           }
+                           .udalykhnn_av3FDRJhB, .half{
+                              display: flex;
+                              flex-direction: column;
+                           }
+                           .half{
+                              width: 100%;
+                              
+                           }
+                           .half input, #input-submit{
+                              padding: 5px 10px 5px 10px;
+                              margin:  5px 0 5px 0;
+                           }
+                           .form-reg{
+                              width: 40%;
+                              padding:0 5% 0 5%;
+                           }
+                           </style>
                         <p></p>
                      </div>
                      <div class="vk-container">
@@ -321,7 +377,7 @@
                            <div class="vk-avatar"><img src="./history/img-1034.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Ян Князев</div>
                            <div class="vk-comment-text">
-                              <p>Наталия, вот тебе ссылка <a href="https://natureheal.pw/testoviy/"> Crystal Eyes</a>, только поторопись пока есть акция
+                              <p>Наталия, вот тебе ссылка <a href=""> Crystal Eyes</a>, только поторопись пока есть акция
                               </p>
                            </div>
                            <div class="vk-comment-date"><span class="comment_date">27.05.2021</span> </div>
@@ -476,7 +532,7 @@
                            <div class="vk-comment-text">
                               Сегодня, буквально вот только что заказывала.<br>
                               Там скидка 50% действует, торопитесь!<br>
-                              На официальном <a href="https://ru.wikipedia.org/wiki">сайте</a> покупала, очень быстро перезвонили и заказ
+                              На официальном <a href="">сайте</a> покупала, очень быстро перезвонили и заказ
                               подтвердили.
                               <br>
                               Хочется наконец видеть нормально)
@@ -578,7 +634,7 @@
                            <div class="vk-avatar"><img src="./history/img-2233.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Леонид Саута</div>
                            <div class="vk-comment-text">
-                              <p>Ещё раз повторяю, что Crystal Eyes можно заказать ТОЛЬКО на <a target="_top" href="https://natureheal.pw/testoviy/">официальном сайте производителя</a>, чтобы не ошибиться просто нажмите на
+                              <p>Ещё раз повторяю, что Crystal Eyes можно заказать ТОЛЬКО на <a target="_top" href="">официальном сайте производителя</a>, чтобы не ошибиться просто нажмите на
                                  кнопку "Перейти на сайт производителя" чуть ниже! Специально для наших читателей есть
                                  отличная скидка по договоренности с производителем, но она будет действовать совсем не
                                  долго, так что поторопитесь с заказом!<br> И остерегайтесь, пожалуйста,
@@ -588,7 +644,7 @@
                         </div>
                         <center>
                            <div class="udalykhnn_av3FDRJhB"><br>
-                              <a class="button_page" href="https://natureheal.pw/testoviy/">ПЕРЕЙТИ НА САЙТ
+                              <a class="button_page" onClick="yourFunction()">ПЕРЕЙТИ НА САЙТ
                                  ПРОИЗВОДИТЕЛЯ</a>
                            </div>
                         </center>
