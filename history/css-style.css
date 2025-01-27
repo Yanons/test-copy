@@ -83,6 +83,7 @@ h2 { font-size: 22px; font-weight: normal; }
     center > img { max-width: 100%; }
 }
 @media screen and (max-width: 720px) {
+    .shema{margin: 0px;}
     .katyakoncakova_FtFDdVex .main-menu-blk > li { width: 33.333%; }
     .katyakoncakova_FtFDdVex .mikstroy_hlTMvYzPJs { display: none; }
     .renul_seDwyoGn57 .gelat_Bb6MhOHv { width: 250px; margin: 0px auto; padding-right: 0px; float: none; }
@@ -531,3 +532,110 @@ position: fixed;    cursor: pointer;
         pointer-events: none;
         cursor: zoom-out;
      }
+     .baner-reg{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+     }
+     .udalykhnn_av3FDRJhB, .half{
+        display: flex;
+        flex-direction: column;
+     }
+     .half{
+        width: 100%;
+        
+     }
+     .half input, #input-submit{
+        padding: 5px 10px 5px 10px;
+        margin:  5px 0 5px 0;
+     }
+     .form-reg{
+        width: 40%;
+        padding:0 5% 0 5%;
+     }
+
+     .progress-green{
+        background:#66A020;
+     }
+     .progress-gray{
+        background:#939598;
+     }
+     .progress {
+        position: relative;
+        width: 100%;
+        height: 26px;
+        overflow: hidden;
+        margin: 5% 0 0 0;
+        background: linear-gradient(to right, #66A020 100%);
+      }
+      .grayback-23{
+        left: 23%; /* Текущее состояние */
+      }
+      .grayback {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: #EDEFF2;
+      }
+      .info-shema{
+        display: flex;
+        height: 75%;
+        width: 96%;
+        padding: 0 2% 0 2%;
+      }
+      .title-shema{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 15%;
+        background-color: #EDEFF2;
+        padding: 2% 0 2% 2%;
+      }
+      .shema{
+        width: 90%;
+        margin: 0 3% 0 3%;
+        border: #EDEFF2 solid 1px;
+      }
+      .name-shema h5{
+        margin: 9% 0 7% 0;
+      }
+      .name-shema{
+        width: 40%;
+      }
+      .diagram{
+        width: 60%;
+      }
+      .title-shema h4{
+        color: #810100;
+      }
+      .title-shema p{
+        margin: 0px !important;
+        text-indent: 2px !important;
+      }
+      .diagram h5{
+        position: absolute;
+        left: 5%;
+        top: 5%;
+      }
+      .green-text{
+        color: #66A020;
+      }
+      .grey-text{
+        color: #939598;
+      }
+      @media screen and (max-width: 700px) {
+        .name-shema h5{
+            font-size: 15px;
+          }
+      }
+      @media screen and (max-width: 500px) {
+        .name-shema h5{
+            
+            font-size: 10px;
+          }
+          .shema{
+            margin: 0;
+            width: 100%;
+          }
+      }

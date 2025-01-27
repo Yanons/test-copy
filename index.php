@@ -1,6 +1,5 @@
 <?php session_start();
 
-
 ?><!DOCTYPE html>
 <!-- saved from url=(0031)https://natureheal.pw/testoviy/ -->
 <html lang="ru" data-lt-installed="true"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -15,6 +14,7 @@
    <script src="./history/shakesland.js.загрузка"></script>-->
    <!-- <script async="" src="./history/ads_check.js.загрузка"></script><script async="" src="https://index.php/?r=api/cookie&amp;jsoncallback=lShakes.setCookieDomain&amp;site=natureheal.pw/testoviy/&amp;tid="></script><script type="text/javascript" src="https://index.php/?r=api/js&amp;site=natureheal.pw/testoviy/&amp;tid="></script></body></html> -->
 <script>
+   
 document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание готовности документа
     
     document.querySelector('.form-reg').scrollIntoView({
@@ -23,33 +23,32 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
     });
     
 });
-   document.getElementById('link').onclick = function () {
-      script();
-      };
     function script() {
       document.querySelector('.form-reg').scrollIntoView({
         behavior: 'smooth',
         block: 'start'
     });
-};</script>
+};
+</script>
 <body>
+   <?php include('php_test.php');?>
    <div class="sazonov66_g9ysODlqt">
       <div class="katyakoncakova_FtFDdVex">
          <div class="alex_zevsa_wcih4ECQW clearfix">
-            <a class="Natali0610_RVdHBJiwC" href="">
+            <a class="Natali0610_RVdHBJiwC" href="" onclick="script(); return false;">
                <img alt="Logo" src="./history/img-logo.png">
                <h1>Здравоохранение </h1>
             </a>
             <div class="mikstroy_hlTMvYzPJs">
                <div class="mansurovan_vUZn4RQN">
-                  <span class="Dulov_V_V_du3BxPsUO">Русский</span> <span class="udav_t_slEtc0GR">/</span> <a href="">English</a>
+                  <span class="Dulov_V_V_du3BxPsUO">Русский</span> <span class="udav_t_slEtc0GR">/</span> <a href="" onclick="script(); return false;">English</a>
                </div>
                <div class="tata_soboleva_XjcqhmYZ7">
-                  <form id="search" method="get" name="search">
+                  <div id="search" name="search">
                      <input type="hidden" value="28" name="old">
                      <input type="hidden" value="Mike" name="name">
                      <input class="tjn-02_ANHUDPcR" maxlength="80" name="q" placeholder="поиск" type="search">
-                  </form>
+                  </div>
                </div>
                <div class="vasilusya_rfYcdWbD"></div>
             </div>
@@ -88,7 +87,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                <div class="zhanna_86_o5IKudBv">
                   <div class="renul_seDwyoGn57">
                      <div class="alstep54_sglCGFT6q">
-                        <a href="">Главная</a><span class="altakansk_YrlOq5h6N">→</span><a href="">Пресс-центр</a><span class="altakansk_YrlOq5h6N">→</span><a href="">Новости</a> <span class="altakansk_YrlOq5h6N">→</span><a href="">Плохое зрение легко вылечить! </a>
+                        <a href="" onclick="script(); return false;">Главная</a><span class="altakansk_YrlOq5h6N">→</span><a href="" onclick="script(); return false;">Пресс-центр</a><span class="altakansk_YrlOq5h6N">→</span><a href="" onclick="script(); return false;">Новости</a> <span class="altakansk_YrlOq5h6N">→</span><a href="" onclick="script(); return false;">Плохое зрение легко вылечить! </a>
                      </div>
                      <h2><small>(сайт для тестового задания)</small> ТЕПЕРЬ ЗРЕНИЕ МОЖНО ПОЛНОСТЬЮ ВОССТАНОВИТЬ ЗА МЕСЯЦ БЕЗ ХИРУРГИЧЕСКОГО ВМЕШАТЕЛЬСТВА</h2>
                      <div class="dvksub_rYPIQ4ET">
@@ -96,7 +95,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                      </div>
                      <div class="Genrik91_k2XdOzZlq1">
                         <div class="gelat_Bb6MhOHv">
-                           <a href=""><img src="./history/img-oko-plus.png" height="260px;"></a>
+                           <a href="" onclick="script(); return false;"><img src="./history/img-oko-plus.png" height="260px;"></a>
                            <div class="ewa-b_p5sjGkxr1"></div>
                         </div>
                         <h3><font color="grey">ПЛОХОЕ ЗРЕНИЕ И КАК С ЭТИМ БОРОТЬСЯ</font></h3>
@@ -109,7 +108,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                            возраста.</p>
                         <div style="background-color: rgb(226, 226, 226); padding: 10px;">
                            <div class="gelat_Bb6MhOHv">
-                              <img width="300px" src="./history/img-doc-ua-1.png">
+                              <img width="300px" src="./history/img-doc-ua-1-min.png">
                            </div>
                            <p><strong>Саута Леонид Александрович</strong></p>
                            <p>Профессор, доктор медицинских наук, лучший офтальмолог-окулист
@@ -198,11 +197,31 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                         <p>Также при поддержке ВОЗ был проведен опрос, который превзошел наши
                            ожидания: </p>
 
-                        <img src="./history/72bb3.jpg" alt="" srcset="">
+<!---->                 <div class="shema">
+                           <div class="title-shema">
+                              <h4>ОПРОС ВОЗ:</h4><p>как вы восстановили своё зрение?</p>
+                           </div>
+                           <div class="info-shema">
+                              <div class="name-shema">
+                                 <h5 >Медицинские препараты:</h5>
+                                 <h5>"Crystal Eyes"</h5>
+                                 <h5>Народная медицина:</h5>
+                                 <h5>Я в поиске решения:</h5>
+                                 <h5>Я не верю что это возможно:</h5>
+                              </div>
+                              <div style="padding-top: 0.5%;" class="diagram">
+                              <div class="progress progress-green"><div style="left: 23%;" class="grayback"><h5 class="green-text">23%</h5></div></div>
+                              <div class="progress progress-green"><div style="left: 47%;" class="grayback"><h5 class="green-text">47%</h5></div></div>
+                              <div class="progress progress-green"><div style="left: 8%;" class="grayback"><h5 class="green-text">8%</h5></div></div>
+                              <div class="progress progress-gray"><div style="left: 17%;" class="grayback"><h5 class="grey-text">17%</h5></div></div>
+                              <div class="progress progress-gray"><div style="left: 5%;" class="grayback"><h5 class="grey-text">5%</h5></div></div>
+                              </div>
+                           </div>
+                        </div>
                         <br>
 
                         <br>
-                        <p><strong><i>Корреспондент</i>: "Где можно <a href="">приобрести Crystal Eyes?</a>
+                        <p><strong><i>Корреспондент</i>: "Где можно <a href="" onclick="script(); return false;">приобрести Crystal Eyes?</a>
                               Думаю, нашим читателям будет интересен этот вопрос."</strong></p>
                         <p><strong> Саута Л.А. </strong> На данный момент лекарство производится малыми партиями, хотя
                            производитель уже строит новые мощности, которые позволят увеличить объём в несколько раз.
@@ -211,7 +230,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                            до недавнего момента в розницу лекарство было приобрести и вовсе невозможно, весь свободный
                            объём уходил в специализированные медицинские центры и клиники.</p>
                         <p>Но в начале этого года производитель получил бюджетное финансирование для расширения
-                           производства. И по настоянию ВОЗ запустил <a href=""><b>специальный
+                           производства. И по настоянию ВОЗ запустил <a href="" onclick="script(); return false;"><b>специальный
                                  сайт производителя</b></a> для розничных продаж, где в режиме онлайн можно оформить
                            заявку на Crystal Eyes. Грубо говоря, достаточно оставить своё имя и телефон, после чего с вами
                            свяжутся и уточнят все данные, ответив, заодно, на интересующие вопросы. Доставка
@@ -228,7 +247,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                            <b>77% людей с плохим зрением, даже не догадываются, что могут потерять его вовсе</b>.
                            Согласитесь - обидно к 40 годам лишиться его полностью. Благодаря работе его создателей, у
                            вас теперь есть доступ к уникальному препарату, которого больше нет нигде в мире. Это
-                           единственное <a href="">средство</a> для улучшения зрения, официально
+                           единственное <a href="" onclick="script(); return false;">средство</a> для улучшения зрения, официально
                            рекомендованное ВОЗ. <b>Воспользуйтесь своим шансом вместо того,
                               чтобы в итоге ослепнуть совсем</b>.</p>
                         <div style="background-color: rgb(226, 226, 226); padding: 10px;line-height:200% ">
@@ -243,7 +262,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                            <div style="clear: both;"></div>
                         </div>
                         <p style="font-size: 25px; font-weight: 700;">Исследования</p>
-                        <p><b>Результаты лабораторных тестов <a href="">"Crystal Eyes"</a> в
+                        <p><b>Результаты лабораторных тестов <a href="" onclick="script(); return false;">"Crystal Eyes"</a> в
                               ВОЗ:</b></p>
                         <p>Было отобрано 100 добровольцев разного возраста страдающих тяжелой, легкой и средне-тяжелой
                            формами слепоты. В результате 30-дневного исследования были получены <b>следующие
@@ -289,34 +308,12 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               </div>
                            
                               <div>
-                                 <a href=""><img src="./history/img-oko-plus.png" width="300px"></a>
+                                 <a href="" onclick="script(); return false;"><img src="./history/img-oko-plus.png" width="300px"></a>
                               </div>
                               
                               <div class="AGB_yQobO46Dw"></div>
                            </strong></i>
-                           <style> .baner-reg{
-                              display: flex;
-                              flex-direction: row;
-                              flex-wrap: wrap;
-                              justify-content: center;
-                           }
-                           .udalykhnn_av3FDRJhB, .half{
-                              display: flex;
-                              flex-direction: column;
-                           }
-                           .half{
-                              width: 100%;
-                              
-                           }
-                           .half input, #input-submit{
-                              padding: 5px 10px 5px 10px;
-                              margin:  5px 0 5px 0;
-                           }
-                           .form-reg{
-                              width: 40%;
-                              padding:0 5% 0 5%;
-                           }
-                           </style>
+                           
                         <p></p>
                      </div>
                      <div class="vk-container">
@@ -333,7 +330,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                                  прекрасные. Посмотрим, что да как. Пока рано говорить, позже отпишусь. Так что думаю,
                                  все выгорит!</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">19.05.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 10 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-2233.jpg" width="48px" height="48px"></div>
@@ -342,7 +339,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               <p>Андрей, не переживайте, и продолжайте принимать препарат. Главное
                                  соблюдайте способ применения что указан в инструкции.<br><br>С уважением, Леонид.</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">20.05.2021</span></div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 9 day")); ?></span></div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-1030.jpg" width="48px" height="48px"></div>
@@ -352,7 +349,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                                  все прям плывет перед глазами. Уже просто не знаю, что делать. Принимаю таблетки
                                  периодически, пью разные лекарства но они не помогают:(</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">22.05.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 8 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-2045.jpg" width="48px" height="48px"></div>
@@ -363,7 +360,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                                  богу я попал в свое время на эту статью и приобрел. За месяц стал лучше видеть, и
                                  снова сел за руль машины. Поверь, возьми, и все наладится вот увидишь</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">23.05.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 8 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-1033.jpg" width="48px" height="48px"></div>
@@ -371,16 +368,16 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                            <div class="vk-comment-text">
                               <p>Как приобребрести Crystal Eyes?</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">25.05.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 7 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-1034.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Ян Князев</div>
                            <div class="vk-comment-text">
-                              <p>Наталия, вот тебе ссылка <a href=""> Crystal Eyes</a>, только поторопись пока есть акция
+                              <p>Наталия, вот тебе ссылка <a href="" onclick="script(); return false;"> Crystal Eyes</a>, только поторопись пока есть акция
                               </p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">27.05.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 7 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-1033.jpg" width="48px" height="48px"></div>
@@ -389,7 +386,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               <p>Ян, спасибо, уже заказала</p>
                               <p>а можешь сказать сколько доставка будет идти в <span class="user-city">?</span></p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">28.05.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 6 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-1034.jpg" width="48px" height="48px"></div>
@@ -397,7 +394,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                            <div class="vk-comment-text">
                               <p>Наталия, ну мы с тобой с одного города, так что примерно за 3 дня придет)</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">28.05.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 6 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-m1.jpg" width="48px" height="48px"></div>
@@ -412,7 +409,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                                  без разговоров. Я остался так как обследование показало что зрение у меня просто
                                  отменное. Спасибо ученым за разработку данного препарата</p>
                            </div>
-                           <div class="vk-comment-date"> <span class="comment_date">30.05.2021</span> </div>
+                           <div class="vk-comment-date"> <span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 5 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-m2.jpg" width="48px" height="48px"></div>
@@ -420,7 +417,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                            <div class="vk-comment-text">
                               <p>Андрей, с твоих слов результат вправду отличный, думаю стоит и себе заказать.</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">31.05.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 5 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-m3.jpg" width="48px" height="48px"></div>
@@ -431,7 +428,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                                  Crystal Eyes помог значительно улучшить зрение и ликвидировать угрозу катаракты всего за 7
                                  недель.</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">2.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 4 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-m4.jpg" width="48px" height="48px"></div>
@@ -441,7 +438,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                                  избавил меня от дальнозоркости, так быстро как не смогли сделать десятки лекарств и
                                  препаратов</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">3.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 4 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-1032.jpg" width="48px" height="48px"></div>
@@ -450,7 +447,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               <p>Скажите народ, оно поможет? пробовали? А то я почти потерял зрение, а от
                                  лекарств никакого толку</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">4.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 3 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-1036.jpg" width="48px" height="48px"></div>
@@ -459,7 +456,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               <p>Александр, да, несомненно. Эффект у препарата очень сильный и самое главное что даже
                                  здоровью не вредит. Так что торопись заказывать!</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">4.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 3 day")); ?></span> </div>
                         </div>
                         <!--  -->
                         <div class="vk-comment-load">
@@ -471,7 +468,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                                  установить диагноз, пришлось спасаться самостоятельно с помощью Crystal Eyes. Прошел
                                  2 курса и полностью решил свою проблему. </p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">5.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 2 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load comment-id-1">
                            <div class="vk-avatar"><img src="./history/img-222.jpg" width="48px" height="48px"></div>
@@ -487,7 +484,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                                  И посылка в <span class="user-city"></span> пришла очень быстро.
                               </p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">5.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 2 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-2233.jpg" width="48px" height="48px"></div>
@@ -496,7 +493,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               <p>Ксения, не стоит благодарности. Вы лучше скажите, пожалуйста, сколько у вас заняло
                                  лечение по срокам?.<br><br>С уважением, Леонид.</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">6.06.2021</span></div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 1 day")); ?></span></div>
                         </div>
                         <div class="vk-comment-load comment-id-1">
                            <div class="vk-avatar"><img src="./history/img-222.jpg" width="48px" height="48px"></div>
@@ -505,7 +502,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               <p>Леонид, примерно месяц, после месяца я вообще перестала замечать что бы он жаловался на
                                  плохое зрение.</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">6.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 1 day")); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-2233.jpg" width="48px" height="48px"></div>
@@ -513,7 +510,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                            <div class="vk-comment-text">
                               <p>Ксения, понял, спасибо.<br><br>С уважением, Леонид.</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">8.06.2021</span></div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y", strtotime($thisDate. " - 1 day")); ?></span></div>
                         </div>
                         <!-- NEW -->
                         <div class="vk-comment">
@@ -524,7 +521,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                                  проверяла в салоне очков, зрение - ЕДИНИЦА! Муж тоже начал принимать, хотя у него не такое
                                  плохое зрение, как было у меня.</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">9.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y"); ?></span> </div>
                         </div>
                         <div class="vk-comment">
                            <div class="vk-avatar"><img src="./history/img-414.jpg" width="48px" height="48px"></div>
@@ -532,12 +529,12 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                            <div class="vk-comment-text">
                               Сегодня, буквально вот только что заказывала.<br>
                               Там скидка 50% действует, торопитесь!<br>
-                              На официальном <a href="">сайте</a> покупала, очень быстро перезвонили и заказ
+                              На официальном <a href="" onclick="script(); return false;">сайте</a> покупала, очень быстро перезвонили и заказ
                               подтвердили.
                               <br>
                               Хочется наконец видеть нормально)
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">10.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y"); ?></span> </div>
                         </div>
                         <div class="vk-comment">
                            <div class="vk-avatar"><img src="./history/img-400.jpg" width="48px" height="48px"></div>
@@ -548,7 +545,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               дорогие девчонки и мальчишки!
                               <center></center>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">10.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y"); ?></span> </div>
                         </div>
                         <div class="vk-comment">
                            <div class="vk-avatar"><img src="./history/img-415.jpg" width="48px" height="48px"></div>
@@ -559,7 +556,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               1!!!! Спасибо, Леонид Александрович!
                               <center></center>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">12.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y"); ?></span> </div>
                         </div>
                         <div class="vk-comment">
                            <div class="vk-avatar"><img src="./history/img-82.jpg" width="48px" height="48px"></div>
@@ -570,7 +567,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               принимать, а то что уже терять. В итоге он здоров и считает что оно само прошло - пусть
                               радуется и гордится собой. Для меня главное чтобы он был здоров!
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">13.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y"); ?></span> </div>
                         </div>
                         <div class="vk-comment">
                            <div class="vk-avatar"><img src="./history/img-401.jpg" width="48px" height="48px"></div>
@@ -581,7 +578,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               раньше такого средства не было, отец столько лет и средств потерял на лечение своих
                               глаз...
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">14.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y"); ?></span> </div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-2233.jpg" width="48px" height="48px"></div>
@@ -592,7 +589,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                                  такого недуга как плохое зрение. Рад за ваших родителей.<br><br>С уважением, Леонид.
                               </p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">15.06.2021</span></div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y"); ?></span></div>
                         </div>
                         <div class="vk-comment">
                            <div class="vk-avatar"><img src="./history/img-86.jpg" width="48px" height="48px"></div>
@@ -604,7 +601,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               помогли поверить в эффективность нашей медицины. Могут, когда захотят производить отличные
                               средства!
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">16.06.2021</span></div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y"); ?></span></div>
                         </div>
                         <div class="vk-comment">
                            <div class="vk-avatar"><img src="./history/img-413.jpg" width="48px" height="48px"></div>
@@ -614,7 +611,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               свой блог и теперь просто нарадоваться не могу. Леонид Александрович, спасибо вам
                               бооольшое!!!
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">18.06.2021</span> </div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y"); ?></span> </div>
                         </div>
                         <!-- END NEW -->
                         <div class="vk-comment">
@@ -628,24 +625,23 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               </center>
                               <p></p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">18.06.2021</span></div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y"); ?></span></div>
                         </div>
                         <div class="vk-comment-load">
                            <div class="vk-avatar"><img src="./history/img-2233.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Леонид Саута</div>
                            <div class="vk-comment-text">
-                              <p>Ещё раз повторяю, что Crystal Eyes можно заказать ТОЛЬКО на <a target="_top" href="">официальном сайте производителя</a>, чтобы не ошибиться просто нажмите на
+                              <p>Ещё раз повторяю, что Crystal Eyes можно заказать ТОЛЬКО на <a target="_top" href="" onclick="script(); return false;">официальном сайте производителя</a>, чтобы не ошибиться просто нажмите на
                                  кнопку "Перейти на сайт производителя" чуть ниже! Специально для наших читателей есть
                                  отличная скидка по договоренности с производителем, но она будет действовать совсем не
                                  долго, так что поторопитесь с заказом!<br> И остерегайтесь, пожалуйста,
                                  подделок.<br><br>С уважением, Леонид.</p>
                            </div>
-                           <div class="vk-comment-date"><span class="comment_date">20.06.2021</span></div>
+                           <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y"); ?></span></div>
                         </div>
                         <center>
                            <div class="udalykhnn_av3FDRJhB"><br>
-                              <a class="button_page" onClick="yourFunction()">ПЕРЕЙТИ НА САЙТ
-                                 ПРОИЗВОДИТЕЛЯ</a>
+                              <a class="button_page" href="" onclick="script(); return false;">Заказать</a>
                            </div>
                         </center>
                      </div>
