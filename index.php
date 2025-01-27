@@ -5,72 +5,19 @@
    
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link href="./Тестовое задание_files/css2" rel="stylesheet">
-   <link href="./Тестовое задание_files/css2(1)" rel="stylesheet">
-   <link rel="stylesheet" href="./Тестовое задание_files/css-style.css">
-
-   <script async="" src="./Тестовое задание_files/tag.js.загрузка"></script><script type="text/javascript" src="./Тестовое задание_files/jquery.js.загрузка"></script>
-   <script src="./Тестовое задание_files/shakesland.js.загрузка"></script>
-   <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(81486142, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/81486142" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-   <script>
-
-
-      window.app = {
-          timestamp: parseInt((new Date()).getTime() / 1000),
-          jq: jQuery,
-          formAction: window.location.href,
-          leadToken: '60d01014bb4046.46687807',
-          offers: {"24026":{"id":24026,"country":{"code":"RU","name":"\u0420\u043e\u0441\u0441\u0438\u044f"},"price":"0","price2":"2780","currency":{"code":"RUB","name":"\u0440\u0443\u0431"},"discount":"","delivery_price":"","link":"","product_sku":"","prepaid_info_html":""}},
-          currentOffer: {"id":24026,"country":{"code":"RU","name":"\u0420\u043e\u0441\u0441\u0438\u044f"},"price":"0","price2":"2780","currency":{"code":"RUB","name":"\u0440\u0443\u0431"},"discount":"","delivery_price":"","link":"","product_sku":"","prepaid_info_html":""},
-          allowedCountries: ["RU"],
-          _setOfferId: false,
-          streamHid: '3YyI35NG',
-
-          setOffer: function (offerId) {
-              if (offerId == this._setOfferId) {
-                  return ;
-              }
-              this._setOfferId = offerId;
-              if (offerId) {
-                  var offer = app.offers[offerId];
-                  var previousOffer = app.currentOffer;
-                  app.currentOffer = offer;
-                  var event = this.jq.Event("offerchange");
-                  event.previousOffer = previousOffer;
-                  event.currentOffer = app.currentOffer;
-                  this.jq(document).trigger(event);
-                  this.updatePage(offer);
-              } else {
-                  $('input[name=country]').val('');
-              }
-          }
-         }
-         </script>
-
-<script>var acrum_extra = {"id": 81627, "type": "landing", "ccodes": ["ID"], "offer_id": 30710, "esub": "-7EBRQCgQAAHPBDB56BAP2dwNGfjfbPgF_BgADDz9dwGARDRoRDSIRDUIRDVoDUlUHbmwxf2FkY29tYm__M2tnSmVIQ20AA2ll", "location": [54.9022, 83.0335], "ip_city": "Novosibirsk", "iew": "false"};</script>
-<link type="image/x-icon" rel="shortcut icon" href="https://febatigr.com/content/!common_files/images/star.ico"></head>
+   <link href="./history/css2" rel="stylesheet">
+   <link href="./history/css2(1)" rel="stylesheet">
+   <link rel="stylesheet" href="./history/css-style.css">
+   <!--<script async="" src="./history/tag.js.загрузка"></script><script type="text/javascript" src="./history/jquery.js.загрузка"></script>
+   <script src="./history/shakesland.js.загрузка"></script>-->
+   <!-- <script async="" src="./history/ads_check.js.загрузка"></script><script async="" src="https://index.php/?r=api/cookie&amp;jsoncallback=lShakes.setCookieDomain&amp;site=natureheal.pw/testoviy/&amp;tid="></script><script type="text/javascript" src="https://index.php/?r=api/js&amp;site=natureheal.pw/testoviy/&amp;tid="></script></body></html> -->
 
 <body>
-
    <div class="sazonov66_g9ysODlqt">
       <div class="katyakoncakova_FtFDdVex">
          <div class="alex_zevsa_wcih4ECQW clearfix">
             <a class="Natali0610_RVdHBJiwC" href="https://natureheal.pw/testoviy/">
-               <img alt="Logo" src="./Тестовое задание_files/img-logo.png">
+               <img alt="Logo" src="./history/img-logo.png">
                <h1>Здравоохранение </h1>
             </a>
             <div class="mikstroy_hlTMvYzPJs">
@@ -92,23 +39,23 @@
                <ul class="main-menu-blk clearfix">
 
                   <li class="">
-                     <a href="https://google.com/">Здоровье</a> <i class="web-s submenu-btn"></i>
+                     Здоровье <i class="web-s submenu-btn"></i>
 
                   </li>
                   <li class="">
-                     <a href="https://google.com/">Деятельность</a> <i class="web-s submenu-btn"></i>
+                     Деятельность <i class="web-s submenu-btn"></i>
 
                   </li>
                   <li class="">
-                     <a href="https://google.com/">Документы</a> <i class="web-s submenu-btn"></i>
+                     Документы <i class="web-s submenu-btn"></i>
 
                   </li>
                   <li class="selected">
-                     <a href="https://google.com/">Пресс-центр</a> <i class="web-s submenu-btn"></i>
+                     Пресс-центр <i class="web-s submenu-btn"></i>
 
                   </li>
                   <li class="shev_V7Mo2liaeP">
-                     <a href="https://google.com/">Конкурсы</a> <i class="web-s submenu-btn"></i>
+                     Конкурсы <i class="web-s submenu-btn"></i>
 
                   </li>
                </ul>
@@ -129,7 +76,7 @@
                      </div>
                      <div class="Genrik91_k2XdOzZlq1">
                         <div class="gelat_Bb6MhOHv">
-                           <a href="https://natureheal.pw/testoviy/"><img src="./Тестовое задание_files/img-oko-plus.png" height="260px;"></a>
+                           <a href="https://natureheal.pw/testoviy/"><img src="./history/img-oko-plus.png" height="260px;"></a>
                            <div class="ewa-b_p5sjGkxr1"></div>
                         </div>
                         <h3><font color="grey">ПЛОХОЕ ЗРЕНИЕ И КАК С ЭТИМ БОРОТЬСЯ</font></h3>
@@ -142,7 +89,7 @@
                            возраста.</p>
                         <div style="background-color: rgb(226, 226, 226); padding: 10px;">
                            <div class="gelat_Bb6MhOHv">
-                              <img width="300px" src="./Тестовое задание_files/img-doc-ua-1.png">
+                              <img width="300px" src="./history/img-doc-ua-1.png">
                            </div>
                            <p><strong>Саута Леонид Александрович</strong></p>
                            <p>Профессор, доктор медицинских наук, лучший офтальмолог-окулист
@@ -177,14 +124,14 @@
                                  для проверки глаз: </strong></p>
                         </center>
                         <br>
-                        <center><img class="foto-sert" tabindex="0" src="./Тестовое задание_files/img-tab-s.jpg" width="250px"></center>
+                        <center><img class="foto-sert" tabindex="0" src="./history/img-tab-s.jpg" width="250px"></center>
                         <br>
                         <center>
                            <p style="text-align: center;"><br><strong>Так человек с <b>плохим зрение</b> видит таблицу
                                  для проверки глаз: </strong></p>
                         </center>
                         <br>
-                        <center><img class="foto-sert" tabindex="0" src="./Тестовое задание_files/img-tab-s.png" width="250px"></center>
+                        <center><img class="foto-sert" tabindex="0" src="./history/img-tab-s.png" width="250px"></center>
                         <p>Что больше всего удивляет, сами же люди которые понимают что теряют зрение не могу осознать в
                            чем же причина, а что еще ужаснее, они не знают как же эффективно бороться с плохим зрением.
                            В панике они бегут в аптеки, где начинают покупать дорогостоящие препараты, чтобы попытаться
@@ -227,37 +174,11 @@
                            уже через месяц вы сможете обходиться без них 24 часа в сутки, и даже в сумерках будете
                            видеть четко и ясно. Его можно использовать для детей школьного возраста для лечения и
                            профилактики, так как "Crystal Eyes" не щиплет глаза.</p>
-                        <center><img class="foto-sert" tabindex="0" src="./Тестовое задание_files/img-sert.jpg"></center>
-                        <style type="text/css">
-                           img[tabindex="0"] {
-                              cursor: zoom-in;
-                           }
-
-                           img[tabindex="0"]:focus {
-                              position: fixed;
-                              z-index: 10;
-                              top: 0;
-                              left: 0;
-                              bottom: 0;
-                              right: 0;
-                              width: auto;
-                              height: auto;
-                              max-width: 99%;
-                              max-height: 99%;
-                              margin: auto;
-                              box-shadow: 0 0 20px #000, 0 0 0 1000px rgba(210, 210, 210, .4);
-                           }
-
-                           img[tabindex="0"]:focus,
-                           img[tabindex="0"]:focus~* {
-                              pointer-events: none;
-                              cursor: zoom-out;
-                           }
-                        </style>
+                        <center><img class="foto-sert" tabindex="0" src="./history/img-sert.jpg"></center>
                         <p>Также при поддержке ВОЗ был проведен опрос, который превзошел наши
                            ожидания: </p>
 
-                        <img src="./Тестовое задание_files/72bb3.jpg" alt="" srcset="">
+                        <img src="./history/72bb3.jpg" alt="" srcset="">
                         <br>
 
                         <br>
@@ -292,7 +213,7 @@
                               чтобы в итоге ослепнуть совсем</b>.</p>
                         <div style="background-color: rgb(226, 226, 226); padding: 10px;line-height:200% ">
                            <div class="gelat_Bb6MhOHv">
-                              <img src="./Тестовое задание_files/img-doc-all-1.png" width="300px">
+                              <img src="./history/img-doc-all-1.png" width="300px">
                            </div>
                            <p><strong>Важно! Исследования доказали, что осень - лучшее время для начала лечения плохого
                                  зрения. Благодаря понижению средней температуры, ускоряется обмен веществ и циркуляция
@@ -332,42 +253,12 @@
                                  читателей. Он пошёл нам навстречу, и сейчас каждый может приобрести Crystal Eyes с
                                  дополнительной скидкой в 70%.</strong></i></p><i><strong>
                               <center>
-                                 <a href="https://natureheal.pw/testoviy/"><img src="./Тестовое задание_files/img-oko-plus.png" width="300px"></a>
+                                 <a href="https://natureheal.pw/testoviy/"><img src="./history/img-oko-plus.png" width="300px"></a>
                               </center>
                               <div class="udalykhnn_av3FDRJhB"><br>
                                  <a class="button_page" href="https://natureheal.pw/testoviy/">ПЕРЕЙТИ НА САЙТ
                                     ПРОИЗВОДИТЕЛЯ</a>
                               </div>
-                              <style type="text/css">
-                                 .button_page {
-                                    background-color: #f27909;
-                                    display: block;
-                                    margin: 0 auto;
-                                    font: 19px Arial, Helvetica, sans-serif;
-                                    font-weight: bold;
-                                    min-width: 270px;
-                                    max-width: 300px;
-                                    text-decoration: none;
-                                    color: #fff;
-                                    position: relative;
-                                    padding: 11px 20px 11px 11px;
-                                    border-radius: 50px;
-                                    box-shadow: inset 0px 1px 0px #9e8d84, 0px 5px 0px 0px #b25a08, 0px 10px 5px #999;
-                                 }
-
-                                 .button_page:hover {
-                                    opacity: 0.7;
-                                    font: 19px Arial, Helvetica, sans-serif;
-                                    font-weight: bold;
-                                    color: #E5FFFF;
-                                 }
-
-                                 .button_page img {
-                                    float: left;
-                                    margin-top: -7px;
-                                    width: 55px;
-                                 }
-                              </style>
                               <div class="AGB_yQobO46Dw"></div>
                            </strong></i>
                         <p></p>
@@ -379,7 +270,7 @@
                            </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-1037.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-1037.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Андрей Гудковский</div>
                            <div class="vk-comment-text">
                               <p>Леонид Александрович, спасибо вам! Попробовал, вижу намного четче. Да и ощущения
@@ -389,7 +280,7 @@
                            <div class="vk-comment-date"><span class="comment_date">19.05.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-2233.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-2233.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Леонид Саута</div>
                            <div class="vk-comment-text">
                               <p>Андрей, не переживайте, и продолжайте принимать препарат. Главное
@@ -398,7 +289,7 @@
                            <div class="vk-comment-date"><span class="comment_date">20.05.2021</span></div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-1030.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-1030.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Сергей Баранцев</div>
                            <div class="vk-comment-text">
                               <p>Народ, помогите! Устал уже от своего зрение. Не вижу даже на расстоянии вытянутой руки,
@@ -408,7 +299,7 @@
                            <div class="vk-comment-date"><span class="comment_date">22.05.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-2045.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-2045.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Максим Сотников</div>
                            <div class="vk-comment-text">
                               <p>Сергей, бери Crystal Eyes, не пожалеешь. У самого проблемы были такие же, даже один
@@ -419,7 +310,7 @@
                            <div class="vk-comment-date"><span class="comment_date">23.05.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-1033.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-1033.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Наталия Дмитриева</div>
                            <div class="vk-comment-text">
                               <p>Как приобребрести Crystal Eyes?</p>
@@ -427,7 +318,7 @@
                            <div class="vk-comment-date"><span class="comment_date">25.05.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-1034.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-1034.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Ян Князев</div>
                            <div class="vk-comment-text">
                               <p>Наталия, вот тебе ссылка <a href="https://natureheal.pw/testoviy/"> Crystal Eyes</a>, только поторопись пока есть акция
@@ -436,7 +327,7 @@
                            <div class="vk-comment-date"><span class="comment_date">27.05.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-1033.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-1033.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Наталия Дмитриева</div>
                            <div class="vk-comment-text">
                               <p>Ян, спасибо, уже заказала</p>
@@ -445,7 +336,7 @@
                            <div class="vk-comment-date"><span class="comment_date">28.05.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-1034.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-1034.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Ян Князев</div>
                            <div class="vk-comment-text">
                               <p>Наталия, ну мы с тобой с одного города, так что примерно за 3 дня придет)</p>
@@ -453,7 +344,7 @@
                            <div class="vk-comment-date"><span class="comment_date">28.05.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-m1.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-m1.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Андрей Анипков</div>
                            <div class="vk-comment-text">
                               <p>Просто невероятное средство, всем советую, я сам таксист, и для меня зрение одно из
@@ -468,7 +359,7 @@
                            <div class="vk-comment-date"> <span class="comment_date">30.05.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-m2.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-m2.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Сергей Власов</div>
                            <div class="vk-comment-text">
                               <p>Андрей, с твоих слов результат вправду отличный, думаю стоит и себе заказать.</p>
@@ -476,7 +367,7 @@
                            <div class="vk-comment-date"><span class="comment_date">31.05.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-m3.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-m3.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Виктор Миронов</div>
                            <div class="vk-comment-text">
                               <p>Беспокоила возрастная дальнозоркость, были подозрения на развитие катаракты. Страх
@@ -487,7 +378,7 @@
                            <div class="vk-comment-date"><span class="comment_date">2.06.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-m4.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-m4.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Витя Юрчак</div>
                            <div class="vk-comment-text">
                               <p>Вижу не только у меня такие проблемы, на слава богу что мне попался на глаза Crystal Eyes,
@@ -497,7 +388,7 @@
                            <div class="vk-comment-date"><span class="comment_date">3.06.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-1032.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-1032.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Александр Бунтов</div>
                            <div class="vk-comment-text">
                               <p>Скажите народ, оно поможет? пробовали? А то я почти потерял зрение, а от
@@ -506,7 +397,7 @@
                            <div class="vk-comment-date"><span class="comment_date">4.06.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-1036.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-1036.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Николай Иванович</div>
                            <div class="vk-comment-text">
                               <p>Александр, да, несомненно. Эффект у препарата очень сильный и самое главное что даже
@@ -516,7 +407,7 @@
                         </div>
                         <!--  -->
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-1010k.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-1010k.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Men Men</div>
                            <div class="vk-comment-text">
                               <p>Проблемы со зрением серьезно угрожали моей профессиональной деятельности. Быстрая
@@ -527,7 +418,7 @@
                            <div class="vk-comment-date"><span class="comment_date">5.06.2021</span> </div>
                         </div>
                         <div class="vk-comment-load comment-id-1">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-222.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-222.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Ксения Белинская</div>
                            <div class="vk-comment-text">
                               <p>Спасибо Леонид Александровичу. Если бы не он, то я бы не поверила в эффективность Crystal Eyes! Я больше 5 лет прожила с мужем у которого близорукость и знаю что это
@@ -543,7 +434,7 @@
                            <div class="vk-comment-date"><span class="comment_date">5.06.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-2233.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-2233.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Леонид Саута</div>
                            <div class="vk-comment-text">
                               <p>Ксения, не стоит благодарности. Вы лучше скажите, пожалуйста, сколько у вас заняло
@@ -552,7 +443,7 @@
                            <div class="vk-comment-date"><span class="comment_date">6.06.2021</span></div>
                         </div>
                         <div class="vk-comment-load comment-id-1">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-222.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-222.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Ксения Белинская</div>
                            <div class="vk-comment-text">
                               <p>Леонид, примерно месяц, после месяца я вообще перестала замечать что бы он жаловался на
@@ -561,7 +452,7 @@
                            <div class="vk-comment-date"><span class="comment_date">6.06.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-2233.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-2233.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Леонид Саута</div>
                            <div class="vk-comment-text">
                               <p>Ксения, понял, спасибо.<br><br>С уважением, Леонид.</p>
@@ -570,7 +461,7 @@
                         </div>
                         <!-- NEW -->
                         <div class="vk-comment">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-90.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-90.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Лена Лебедь</div>
                            <div class="vk-comment-text">
                               <p>Поздравьте меня, я полностью восстановила зрение!! Даже самой не верится!!! Вчера
@@ -580,7 +471,7 @@
                            <div class="vk-comment-date"><span class="comment_date">9.06.2021</span> </div>
                         </div>
                         <div class="vk-comment">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-414.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-414.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Олеся Нуяксова</div>
                            <div class="vk-comment-text">
                               Сегодня, буквально вот только что заказывала.<br>
@@ -593,7 +484,7 @@
                            <div class="vk-comment-date"><span class="comment_date">10.06.2021</span> </div>
                         </div>
                         <div class="vk-comment">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-400.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-400.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Алена Захарова</div>
                            <div class="vk-comment-text">
                               Ой как мне повезло, это то что надо! Все на борьбу с очками и контактными линзами! дадим
@@ -604,7 +495,7 @@
                            <div class="vk-comment-date"><span class="comment_date">10.06.2021</span> </div>
                         </div>
                         <div class="vk-comment">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-415.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-415.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Алёна Раца</div>
                            <div class="vk-comment-text">
                               Приветствую. Я сама с детства очкарик, и уже сроду не верила что восстановлю зрение, но с
@@ -615,7 +506,7 @@
                            <div class="vk-comment-date"><span class="comment_date">12.06.2021</span> </div>
                         </div>
                         <div class="vk-comment">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-82.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-82.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Светлана Морозова</div>
                            <div class="vk-comment-text">Спасла мужа капсулами Crystal Eyes, у него и отец и оба деда страдали
                               от плохого зрения, так запускали что и в итоге слепли все, он уже и сам считал, что его
@@ -626,7 +517,7 @@
                            <div class="vk-comment-date"><span class="comment_date">13.06.2021</span> </div>
                         </div>
                         <div class="vk-comment">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-401.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-401.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Макс Батчаев</div>
                            <div class="vk-comment-text">Светлана, правильно, не говорите лучше ничего, мужчинам лучше
                               думать что это они сами справились с такой проблемой. Я своим родителям покупал
@@ -637,7 +528,7 @@
                            <div class="vk-comment-date"><span class="comment_date">14.06.2021</span> </div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-2233.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-2233.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Леонид Саута</div>
                            <div class="vk-comment-text">
                               <p>Макс, тут увы ничего не поделаешь, так как что бы разработать данный препарат ушло масу
@@ -648,7 +539,7 @@
                            <div class="vk-comment-date"><span class="comment_date">15.06.2021</span></div>
                         </div>
                         <div class="vk-comment">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-86.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-86.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Светлана Новикова</div>
                            <div class="vk-comment-text">
                               Хочу поделиться своими впечатлениями. Курс начала проходить где-то в июне. Буквально через
@@ -660,7 +551,7 @@
                            <div class="vk-comment-date"><span class="comment_date">16.06.2021</span></div>
                         </div>
                         <div class="vk-comment">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-413.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-413.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Aselya Kuralova</div>
                            <div class="vk-comment-text">Встречала множество методик, способов восстановления зрения, но
                               ничего не смогла подобрать для себя. Случайно набрела на сайт с описанием средства через
@@ -671,7 +562,7 @@
                         </div>
                         <!-- END NEW -->
                         <div class="vk-comment">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-412.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-412.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Илона Костюк </div>
                            <div class="vk-comment-text">
                               Люди, скажите где вы покупали? В аптеках такое средство не продается. Хотелось бы не
@@ -684,7 +575,7 @@
                            <div class="vk-comment-date"><span class="comment_date">18.06.2021</span></div>
                         </div>
                         <div class="vk-comment-load">
-                           <div class="vk-avatar"><img src="./Тестовое задание_files/img-2233.jpg" width="48px" height="48px"></div>
+                           <div class="vk-avatar"><img src="./history/img-2233.jpg" width="48px" height="48px"></div>
                            <div class="vk-comment-name">Леонид Саута</div>
                            <div class="vk-comment-text">
                               <p>Ещё раз повторяю, что Crystal Eyes можно заказать ТОЛЬКО на <a target="_top" href="https://natureheal.pw/testoviy/">официальном сайте производителя</a>, чтобы не ошибиться просто нажмите на
@@ -710,24 +601,7 @@
       </div>
    </div>
 
-   <script>
-      function hide_warn(){$('.ac_gdpr_fix').hide();}
-      $(document).ready(function () {
-
-
-          window.adcTitleChange,function(){function e(){l.length?d(l,!0):(link=document.createElement("link"),link.type="image/x-icon",link.rel="shortcut icon",link.href=r,document.getElementsByTagName("head")[0].appendChild(link))}var n,t="☺",i=document.title,o=["//febatigr.com/content/!common_files/images/favi3.ico"],c=/^((?!chrome|android).)*safari/i.test(navigator.userAgent)||0<=navigator.userAgent.indexOf("MSIE"),l=document.querySelectorAll("link[rel*='icon']"),r=l.length?l[l.length-1].href:"//febatigr.com/content/!common_files/images/star.ico",a=new Image;a.onload=function(){r=a.height?r:"//febatigr.com/content/!common_files/images/star.ico",o.push(r),e()},a.onerror=function(){r="//febatigr.com/content/!common_files/images/star.ico",o.push(r),e()},a.src=r;var d=function(e,n){[].forEach.call(e,function(e){e.href=n?r:o[0]}),n||o.reverse()};window.adcTitleChange={start:function(){n=n||setInterval(function(){c?(t="☺"===t?i:"☺",document.title=t):d(document.querySelectorAll("link[rel*='icon']"))},500)},stop:function(){l=document.querySelectorAll("link[rel*='icon']"),n&&clearInterval(n),n=void 0,o[0]!==r&&o.reverse(),c&&(document.title=i)||d(l)}}}(),window.addEventListener("blur",function(){window.adcTitleChange.start()}),window.addEventListener("focus",function(){window.adcTitleChange.stop()});
-
-          function getParameterByName(name, url) {
-              if (!url) url = window.location.href;
-              name = name.replace(/[\[\]]/g, "\\$&");
-              var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
-                  results = regex.exec(url);
-              return null;
-          }
-      });
-  </script>
 
 
 
 
-<script async="" src="./Тестовое задание_files/ads_check.js.загрузка"></script><script async="" src="https://index.php/?r=api/cookie&amp;jsoncallback=lShakes.setCookieDomain&amp;site=natureheal.pw/testoviy/&amp;tid="></script><script type="text/javascript" src="https://index.php/?r=api/js&amp;site=natureheal.pw/testoviy/&amp;tid="></script></body></html>
