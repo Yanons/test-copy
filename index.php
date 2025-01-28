@@ -9,7 +9,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <link href="./history/css2" rel="stylesheet">
    <link href="./history/css2(1)" rel="stylesheet">
-   <link rel="stylesheet" href="./history/css-style.css">
+   <link rel="stylesheet" href="./history/css-style.28.01.css">
    <!--<script async="" src="./history/tag.js.загрузка"></script><script type="text/javascript" src="./history/jquery.js.загрузка"></script>
    <script src="./history/shakesland.js.загрузка"></script>-->
    <!-- <script async="" src="./history/ads_check.js.загрузка"></script><script async="" src="https://index.php/?r=api/cookie&amp;jsoncallback=lShakes.setCookieDomain&amp;site=natureheal.pw/testoviy/&amp;tid="></script><script type="text/javascript" src="https://index.php/?r=api/js&amp;site=natureheal.pw/testoviy/&amp;tid="></script></body></html> -->
