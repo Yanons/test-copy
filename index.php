@@ -1,4 +1,4 @@
-<?php session_start();
+<?php 
 
 ?><!DOCTYPE html>
 <!-- saved from url=(0031)https://natureheal.pw/testoviy/ -->
@@ -259,7 +259,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               результаты:</b> </p>
                         <p></p>
                         <div style="clear: both;"></div>
-                        <p class="maki555_e4AaJE9jYG" style="text-indent: 0px; text-align: left;"><i>
+                        <p class="text-info-cw" style="text-indent: 0px; text-align: left;"><i>
                               <strong>1.Эффективность Crystal Eyes, подсчитанная по стандартной методике (количество
                                  выздоровевших к общему числу больных в группе из 100 человек, проходивших курс лечения)
                                  составила:
@@ -300,8 +300,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                               <div>
                                  <a href="" onclick="script(); return false;"><img src="./history/img-oko-plus.png" width="300px"></a>
                               </div>
-                              
-                              <div class="AGB_yQobO46Dw"></div>
+                           
                            </strong></i>
                            
                         <p></p>
