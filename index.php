@@ -32,71 +32,61 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
 </script>
 <body>
    <?php include('php_test.php');?>
-   <div class="sazonov66_g9ysODlqt">
-      <div class="katyakoncakova_FtFDdVex">
-         <div class="alex_zevsa_wcih4ECQW clearfix">
-            <a class="Natali0610_RVdHBJiwC" href="" onclick="script(); return false;">
+   <div class="main-window">
+      <div class="header-menu">
+         <div class="setting-menu clearfix">
+            <a class="ah-logo" href="" onclick="script(); return false;">
                <img alt="Logo" src="./history/img-logo.png">
                <h1>Здравоохранение </h1>
             </a>
-            <div class="mikstroy_hlTMvYzPJs">
-               <div class="mansurovan_vUZn4RQN">
-                  <span class="Dulov_V_V_du3BxPsUO">Русский</span> <span class="udav_t_slEtc0GR">/</span> <a href="" onclick="script(); return false;">English</a>
+            <div class="lang-menu">
+               <div class="lang-name-menu">
+                  <span class="lang-name">Русский</span> <span class="udav_t_slEtc0GR">/</span> <a href="" onclick="script(); return false;">English</a>
                </div>
-               <div class="tata_soboleva_XjcqhmYZ7">
+               <div class="lang-search">
                   <div id="search" name="search">
                      <input type="hidden" value="28" name="old">
                      <input type="hidden" value="Mike" name="name">
-                     <input class="tjn-02_ANHUDPcR" maxlength="80" name="q" placeholder="поиск" type="search">
+                     <input class="search-button" maxlength="80" name="q" placeholder="поиск" type="search">
                   </div>
                </div>
-               <div class="vasilusya_rfYcdWbD"></div>
             </div>
          </div>
-         <div class="puzzle_LTiRtzPGfe">
-            <div class="alex_zevsa_wcih4ECQW">
+         <div class="menu-list-header">
+            <div class="setting-menu">
                <ul class="main-menu-blk clearfix">
-
-                  <li class="">
+                  <li>
                      <p>Здоровье</p> <i class="web-s submenu-btn"></i>
-
                   </li>
-                  <li class="">
+                  <li>
                      <p>Деятельность</p> <i class="web-s submenu-btn"></i>
-
                   </li>
-                  <li class="">
+                  <li>
                      <p>Документы</p> <i class="web-s submenu-btn"></i>
-
                   </li>
-                  <li class="selected">
+                  <li>
                      <p>Пресс-центр</p> <i class="web-s submenu-btn"></i>
-
                   </li>
-                  <li class="shev_V7Mo2liaeP">
+                  <li>
                      <p>Конкурсы</p> <i class="web-s submenu-btn"></i>
-
                   </li>
                </ul>
             </div>
          </div>
       </div>
-      <div class="dmavrodi_yjLIBb2Q">
-         <div class="root_f21XaquIT">
-            <div class="alex_zevsa_wcih4ECQW">
-               <div class="zhanna_86_o5IKudBv">
-                  <div class="renul_seDwyoGn57">
-                     <div class="alstep54_sglCGFT6q">
+      <div class="center-window">
+         <div class="cw-win">
+            <div class="setting-menu">
+               <div class="cw-win-1">
+                  <div class="cw-win-2">
+                     <div class="cw-win-3">
                         <a href="" onclick="script(); return false;">Главная</a><span class="altakansk_YrlOq5h6N">→</span><a href="" onclick="script(); return false;">Пресс-центр</a><span class="altakansk_YrlOq5h6N">→</span><a href="" onclick="script(); return false;">Новости</a> <span class="altakansk_YrlOq5h6N">→</span><a href="" onclick="script(); return false;">Плохое зрение легко вылечить! </a>
                      </div>
                      <h2><small>(сайт для тестового задания)</small> ТЕПЕРЬ ЗРЕНИЕ МОЖНО ПОЛНОСТЬЮ ВОССТАНОВИТЬ ЗА МЕСЯЦ БЕЗ ХИРУРГИЧЕСКОГО ВМЕШАТЕЛЬСТВА</h2>
-                     <div class="dvksub_rYPIQ4ET">
-                        <span id="js-date-1"></span>
-                     </div>
-                     <div class="Genrik91_k2XdOzZlq1">
-                        <div class="gelat_Bb6MhOHv">
+
+                     <div class="cw-win-main">
+                        <div class="img-cw-win">
                            <a href="" onclick="script(); return false;"><img src="./history/img-oko-plus.png" height="260px;"></a>
-                           <div class="ewa-b_p5sjGkxr1"></div>
                         </div>
                         <h3><font color="grey">ПЛОХОЕ ЗРЕНИЕ И КАК С ЭТИМ БОРОТЬСЯ</font></h3>
                         <p>Рассказывает врач высшей медицинской категории Саута Леонид Александрович.</p>
@@ -107,7 +97,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                            молодых людей и детей с ней сталкиваются. И должен сказать, их не меньше, чем людей пожилиго
                            возраста.</p>
                         <div style="background-color: rgb(226, 226, 226); padding: 10px;">
-                           <div class="gelat_Bb6MhOHv">
+                           <div class="img-cw-win">
                               <img width="300px" src="./history/img-doc-ua-1-min.png">
                            </div>
                            <p><strong>Саута Леонид Александрович</strong></p>
@@ -251,7 +241,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                            рекомендованное ВОЗ. <b>Воспользуйтесь своим шансом вместо того,
                               чтобы в итоге ослепнуть совсем</b>.</p>
                         <div style="background-color: rgb(226, 226, 226); padding: 10px;line-height:200% ">
-                           <div class="gelat_Bb6MhOHv">
+                           <div class="img-cw-win">
                               <img src="./history/img-doc-all-1.png" width="300px">
                            </div>
                            <p><strong>Важно! Исследования доказали, что осень - лучшее время для начала лечения плохого
@@ -640,7 +630,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                            <div class="vk-comment-date"><span class="comment_date"><?php echo date("j.m.Y"); ?></span></div>
                         </div>
                         <center>
-                           <div class="udalykhnn_av3FDRJhB"><br>
+                           <div class="button-cw-win"><br>
                               <a class="button_page" href="" onclick="script(); return false;">Заказать</a>
                            </div>
                         </center>
