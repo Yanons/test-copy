@@ -75,7 +75,6 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
          </div>
       </div>
       <div class="center-window">
-         <div class="cw-win">
             <div class="setting-menu">
                <div class="cw-win-1">
                   <div class="cw-win-2">
@@ -639,7 +638,6 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                </div>
             </div>
          </div>
-      </div>
    </div>
 
 
