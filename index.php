@@ -80,7 +80,7 @@ document.addEventListener( 'DOMContentLoaded', ()=>{ // Ожидание гот�
                <div class="cw-win-1">
                   <div class="cw-win-2">
                      <div class="cw-win-3">
-                        <a href="" onclick="script(); return false;">Главная</a><span class="altakansk_YrlOq5h6N">→</span><a href="" onclick="script(); return false;">Пресс-центр</a><span class="altakansk_YrlOq5h6N">→</span><a href="" onclick="script(); return false;">Новости</a> <span class="altakansk_YrlOq5h6N">→</span><a href="" onclick="script(); return false;">Плохое зрение легко вылечить! </a>
+                        <a href="" onclick="script(); return false;">Главная</a><span class="cross-menu-cw">→</span><a href="" onclick="script(); return false;">Пресс-центр</a><span class="cross-menu-cw">→</span><a href="" onclick="script(); return false;">Новости</a> <span class="cross-menu-cw">→</span><a href="" onclick="script(); return false;">Плохое зрение легко вылечить! </a>
                      </div>
                      <h2><small>(сайт для тестового задания)</small> ТЕПЕРЬ ЗРЕНИЕ МОЖНО ПОЛНОСТЬЮ ВОССТАНОВИТЬ ЗА МЕСЯЦ БЕЗ ХИРУРГИЧЕСКОГО ВМЕШАТЕЛЬСТВА</h2>
 
